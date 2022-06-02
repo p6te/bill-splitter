@@ -23,7 +23,7 @@ body {
   border-radius: 10px;
 }
 header {
-  background-color: #e0d64b;
+  background-color: #9edfce;
   border-radius: 10px 10px 0px 0;
   padding: 10px;
 }
@@ -41,8 +41,13 @@ section label{
     justify-content: space-between;
 }
 input, select{
-    width: 100px;
+    width: 130px;
+    height: 25px;
     border-radius: 5px;
+    background: none;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+
 
 }
 footer {
@@ -57,7 +62,7 @@ footer *{
 }
 footer button{
     width: 90%;
-    background-color: #e0d64b;
+    background-color: #9edfce;
     padding: 5px;
     border-radius: 5px;
     font-size: 20px;
@@ -66,7 +71,7 @@ footer button{
     transition:  200ms;
 }
 footer button:hover{
-    background-color: #fff458;
+    background-color: #8cc4b5;
     transition:  200ms;
     cursor: pointer;
 }
