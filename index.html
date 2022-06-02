@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p></p>
+        <h1>BILLSPLITTER</h1>
+        <p>PODZIEL SIĘ RACHUNKIEM ZE ZNAJOMYMI</p>
+      </header>
+      <section>
+        <p></p>
+
+          <label
+            >Kwota do zapłaty
+            <input id="price" type="number" value="324"/>
+          </label>
+     
+          <label
+            >Ilość osób
+            <input class="persons" type="number" value="5"/>
+          </label>
+  
+          <label for="napiwek">Napiwek
+          <select id="napiwek">
+            <option value="0" disabled selected>Wybierz napiwek</option>
+            <option value="0.05">5%</option>
+            <option value="0.10">10%</option>
+            <option value="0.15">15%</option>
+            <option value="0.20">20%</option>
+          </select>
+        </label>
+        
+        <footer class="wynik">
+          <button class="btn">Oblicz</button>
+          <p class = "start-info">Podaj informacje o rachunku.</p>
+        
+          <p class="cost-info">Powinniście się złożyć po <span class="cost"></span> zł.</p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
